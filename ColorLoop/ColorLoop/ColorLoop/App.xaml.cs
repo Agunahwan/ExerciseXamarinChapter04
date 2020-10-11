@@ -8,7 +8,8 @@ namespace ColorLoop
     {
         public App()
         {
-            MainPage = new ColorLoopPage();
+            //MainPage = new ColorLoopPage();
+            MainPage = new ColorListPage();
         }
 
         protected override void OnStart()
