@@ -12,7 +12,8 @@ namespace ColorLoop
             //MainPage = new ColorListPage();
             //MainPage = new ReflectedColorsPage();
             //MainPage = new VerticalOptionsDemoPage();
-            MainPage = new FramedTextPage();
+            //MainPage = new FramedTextPage();
+            MainPage = new SizedBoxViewPage();
         }
 
         protected override void OnStart()
