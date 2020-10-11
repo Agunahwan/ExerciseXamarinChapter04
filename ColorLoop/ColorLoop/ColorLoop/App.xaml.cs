@@ -10,7 +10,8 @@ namespace ColorLoop
         {
             //MainPage = new ColorLoopPage();
             //MainPage = new ColorListPage();
-            MainPage = new ReflectedColorsPage();
+            //MainPage = new ReflectedColorsPage();
+            MainPage = new VerticalOptionsDemoPage();
         }
 
         protected override void OnStart()
