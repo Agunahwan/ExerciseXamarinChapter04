@@ -14,7 +14,8 @@ namespace ColorLoop
             //MainPage = new VerticalOptionsDemoPage();
             //MainPage = new FramedTextPage();
             //MainPage = new SizedBoxViewPage();
-            MainPage = new BlackCatPage();
+            //MainPage = new BlackCatPage();
+            MainPage = new BlackCat.BlackCatSapPage();
         }
 
         protected override void OnStart()

@@ -11,11 +11,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Texts\TheBlackCat.txt" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <EmbeddedResource Include="Texts\TheBlackCat.txt" />
+    <Compile Remove="Texts\**" />
+    <EmbeddedResource Remove="Texts\**" />
+    <None Remove="Texts\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -46,4 +44,6 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
+
+  <Import Project="..\BlackCat\BlackCat.projitems" Label="Shared" />
 </Project>

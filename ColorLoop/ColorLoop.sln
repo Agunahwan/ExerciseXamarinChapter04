@@ -9,9 +9,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorLoop.Android", "ColorL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorLoop.iOS", "ColorLoop\ColorLoop.iOS\ColorLoop.iOS.csproj", "{1E6313B0-6360-47A9-B412-08A0B8D82AE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorLoop", "ColorLoop\ColorLoop\ColorLoop.csproj", "{6A8B9E24-BF56-4E43-A5E6-89D7FD2DF0BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ColorLoop", "ColorLoop\ColorLoop\ColorLoop.csproj", "{6A8B9E24-BF56-4E43-A5E6-89D7FD2DF0BB}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "BlackCat", "ColorLoop\BlackCat\BlackCat.shproj", "{1CA3D874-00C9-4015-96E2-662529E8DEE5}"
 EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		ColorLoop\BlackCat\BlackCat.projitems*{1ca3d874-00c9-4015-96e2-662529e8dee5}*SharedItemsImports = 13
+		ColorLoop\BlackCat\BlackCat.projitems*{6a8b9e24-bf56-4e43-a5e6-89d7fd2df0bb}*SharedItemsImports = 5
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|ARM = Debug|ARM
