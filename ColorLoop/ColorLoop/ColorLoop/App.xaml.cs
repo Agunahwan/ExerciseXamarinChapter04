@@ -10,10 +10,11 @@ namespace ColorLoop
         {
             //MainPage = new ColorLoopPage();
             //MainPage = new ColorListPage();
-            MainPage = new ReflectedColorsPage();
+            //MainPage = new ReflectedColorsPage();
             //MainPage = new VerticalOptionsDemoPage();
             //MainPage = new FramedTextPage();
             //MainPage = new SizedBoxViewPage();
+            MainPage = new BlackCatPage();
         }
 
         protected override void OnStart()
